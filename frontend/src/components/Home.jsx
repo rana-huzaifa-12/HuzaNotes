@@ -16,17 +16,12 @@ const Home = () => {
             </p>
             {!user && (
                 <div className="flex space-x-4">
-                    <Link
-                        to="/login"
-                        className="px-6 py-3 bg-gradient-to-r from-gray-700 to-gray-800 text-gray-100 rounded-lg font-semibold shadow hover:from-gray-600 hover:to-gray-700 transition"
-                    >
-                        Login
-                    </Link>
+
                     <Link
                         to="/signup"
                         className="px-6 py-3 bg-gradient-to-r from-gray-700 to-gray-800 text-gray-100 rounded-lg font-semibold shadow hover:from-gray-600 hover:to-gray-700 transition"
                     >
-                        Sign Up
+                        Start With Huza Notes
                     </Link>
                 </div>
             )}
